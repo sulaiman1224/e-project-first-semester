@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Fan</title>
+        <!-- all link start -->
+            <!-- stle sheet link -->
+            <link rel="stylesheet" href="style.css">
+            <!-- font awesome icon link -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <!-- font awesome icon link -->
+            <link rel="stylesheet" href="contact-us.css"> 
+            <!----------- gallary ----------->
+            <link rel="stylesheet" href="gallary.css">
+            <!-- catogories css -->
+            <link rel="stylesheet" href="catagories.css">
+             <!-- single-product -->
+             <link rel="stylesheet" href="single-product.css">
+              <!-- single-product -->
+            <!-- standing fan -->
+            <script src="standing_fan.js"></script>
+            <!-- Table Fan Script -->
+            <script src="Table-fan.js"></script>
+            <!-- exhaust Fan Script -->
+            <script src="exhaust-fan.js"></script>
+            <!-- Ceiling fan script  -->
+            <script src="Ceiling.js"></script>
+
+            <script src="onclick.js"></script>
+            
+
+
+    <!-- all link start End-->
+</head>
+<body>
+    <div class="allcontent">
+
+        
+        <div class="header1">
+            <header>    
+<!---------------------------------------------nav start------------------------------------------->
+
+           <!---------------------------------------------nav start------------------------------------------->
+           
+           <div class="nav-parent">
+            <a href"#" class="logo">
+                <img src="images/logo/logo.png" alt="logoimage">
+            </a>
+        
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">Menu</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html" >About</a></li>
+                    <li><a href="gallary.html">Gallery</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="Site_map.html" >Site Map</a></li>
+                    <li><a href="" >Categories +</a>
+                        <ul>
+                            <li class="dropdown-list-item"><a href="Standing_fan.html">Standing Fan</a></li>
+                            <li class="dropdown-list-item"><a href="Table_fan.html">Table Fan</a></li>
+                            <li class="dropdown-list-item"><a href="Excaust_fan.html">Excaust Fan</a></li>
+                            <li class="dropdown-list-item"><a href="Celling_fan.html">Ceilling Fan</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a href='registor-from.html' class="user">
+                <input type="button" value="Login/Register" class="login" id="user">
+            </a>
+        </div>
+    
+<!---------------------------------------------- nav end ------------------------------------------->
+            </header>
+            <section class="single-product-main">
+                <div class="single-product-parent">
+                    <div class="left-div">
+                        <div class="signle-product">
+                            <img src="images/gallary/gallary main body images/table fan/tableFan.5/1.jpg" alt="" id="image">
+                        </div>
+                        <div class="small-image-parent">
+                            <div class="small-image"><img src="images/gallary/gallary main body images/table fan/tableFan.5/1.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/table fan/tableFan.5/1.jpg'"></div>
+                            <div class="small-image"><img src="images/gallary/gallary main body images/table fan/tableFan.5/2.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/table fan/tableFan.5/2.jpg'"></div>
+                            <div class="small-image"><img src="images/gallary/gallary main body images/table fan/tableFan.5/3.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/table fan/tableFan.5/3.jpg'"></div>
+                            <div class="small-image"><img src="images/gallary/gallary main body images/table fan/tableFan.5/4.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/table fan/tableFan.5/4.jpg'"></div>
+                            <div class="small-image"><img src="images/gallary/gallary main body images/table fan/tableFan.5/5.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/table fan/tableFan.5/5.jpg'"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="right-div">
+                   
+                        <div class="paragraph">
+                            <p>HOLMES 6" Heritage Table Fan, 2 Speeds, 4 Blades, Adjustable 145° Head Tilt, Metal Construction, Ideal for Home, Bedrooms, Dorm Rooms or Office, Brushed Copper</p><br>
+                            <br>
+                        </div>
+                        <div class="input">
+                            <input type="button" value="buy know" onclick="buyknow()">
+                        </div>
+                      
+                        <div class="pri_qnt">
+                            <div>
+                                <span>$<span id="price">50</span></span>
+                            </div>
+                            <div>
+                                <b>Quantity:</b>
+                                <br>
+                              <select style="width: 80px;" id="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                              </select>
+                            </div>
+                        </div>
+                        <div class="brand-parent">
+                            <div class="brand-name">
+                                <ul>
+                                    <li>Brand</li> 
+                                    <li>Color</li>
+                                    <li>Electric fan design	</li>
+                                    <li> Power Source</li>
+                                    <li>Room Type</li>
+                                </ul>
+                            </div>
+                            <div class="brand-name">
+                               <ul>
+                                    <li  id="brand_name">HOLMES</li>
+                                    <li  id="color_name">Brushed Copper</li>
+                                    <li  id="fan_name"  >Table Fan</li>
+                                    <li>Corded Electric</li>
+                                    <li>Bedroom</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="about-product">
+                            <div class="about-product-child">
+                            <ul>
+                                <h3>about this product</h3>
+                                <li>FEEL THE BREEZE - Dual speed settings, high and low, 4 blades, and simple operation with manual on/off switch</li>
+                                <li>DURABLE CONSTRUCTION - High-end metal finish provides a classic vintage look</li>
+                                <li>FULLY ADJUSTABLE - Adjustable 145° head tilt to direct airflow where needed most</li>
+                                <li>MADE TO FIT - Small footprint easily fits on desks and can be moved around your home with its lightweight portable design and convenient carry handle</li>
+                                <li>COMPACT DESIGN - Ideal for your home office, dorm room, bedroom or kitchen</li>
+                            </ul>
+                            <a href="download_description/table_fan_pro5-description/5.docx">Download Descreption</a>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+               </section>
+        </div>
+    </div>
+    <script>
+        function buyknow(){
+          
+        var image=document.getElementById("image").src;
+        var FanName=document.getElementById("fan_name").innerText;
+        var BrandName=document.getElementById("brand_name").innerText;
+        var ColorName=document.getElementById("color_name").innerText;
+        var price=document.getElementById("price").innerHTML;
+        var quantity=document.getElementById("quantity").value;
+        if(quantity=='1'){
+                    myvalue=price*1
+                }
+                else  if(quantity=='2'){
+                    myvalue=price*2
+                }
+                else  if(quantity=='3'){
+                    myvalue=price*3
+                  }
+                  else  if(quantity=='4'){
+                    myvalue=price*4
+                  }
+                
+    
+        localStorage.setItem("getimage",image);
+        localStorage.setItem("getname",FanName);
+        localStorage.setItem("getbrand",BrandName);
+        localStorage.setItem("getcolor",ColorName);
+        localStorage.setItem("getquantity",quantity);
+        localStorage.setItem("getprice",myvalue);
+        window.location.href="formbuyknow.html"
+        
+        }
+    </script>
+
+
+          <!-- aos script cdn for fade animation -->
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init({
+               
+               
+            }
+    
+            
+            );
+          </script>
+          <!--------slider script----------->
+          <script src="slider.js"> </script>
+
+          <script src="app.js"></script>
+          <script src="secondCard.js"></script>
+          <!-------dropdown script-------->
+          <script src="dropdown.js"></script>
+
+</body>
+</html>

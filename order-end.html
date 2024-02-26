@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="order.css">
+    <title></title>
+</head>
+<body>
+    <div class="order-main">
+        <div class="order-list">
+            <h1>thnak you for order</h1>
+                <div class="cart">
+                    <div  class="title">
+                      <b><span>Name:</span></b> <b><span  class="get-order" id="name"></span></b>
+                    </div>
+                    <div class="title">
+                      <b><span>Email:</span></b> <b><span  class="get-order" id="Email"></span></b>
+                    </div>
+                    <div class="title">
+                      <span><b>Addres:</b></span> <b><span  class="get-order" id="Address"></span></b>
+                    </div>
+                    <div class="title">
+                      <b><span>Quantity:</span></b> <b><span  class="get-order" id="quantity"></span></b>
+                    </div>
+                    <div class="title">
+                      <b><span>Total Price :</span></b> <b><span  class="get-order" id="doller">$</span><span class="get-order" id="total"></span></b>
+                    </div>
+                    <hr
+                    <p style="margin-top: 18px;"><b>Delivery Time: 2 day</b></p>
+                  </div>
+                  <input type="button" value="Finish Order" id="btn" onclick="ordercmpt()">
+              </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById("name").innerHTML=localStorage.getItem("myname");
+        document.getElementById("Email").innerHTML=localStorage.getItem("myemail");
+        document.getElementById("Address").innerHTML=localStorage.getItem("myaddress");
+        document.getElementById("quantity").innerHTML=localStorage.getItem("qty");
+        document.getElementById("total").innerHTML=localStorage.getItem("total");
+        function ordercmpt(){
+            alert(" Order has been successfully placed")
+           window.location.href='index.html'
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Standing Fan</title>
+        <!-- all link start -->
+            <!-- stle sheet link -->
+            <link rel="stylesheet" href="style.css">
+            <!-- font awesome icon link -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <!-- font awesome icon link -->
+            <link rel="stylesheet" href="contact-us.css"> 
+            <!----------- gallary ----------->
+            <link rel="stylesheet" href="gallary.css">
+            <!-- catogories css -->
+            <link rel="stylesheet" href="catagories.css">
+             <!-- single-product -->
+             <link rel="stylesheet" href="single-product.css">
+              <!-- single-product -->
+            <!-- standing fan -->
+            <script src="standing_fan.js"></script>
+            <!-- Table Fan Script -->
+            <script src="Table-fan.js"></script>
+            <!-- exhaust Fan Script -->
+            <script src="exhaust-fan.js"></script>
+            <!-- Ceiling fan script  -->
+            <script src="Ceiling.js"></script>
+
+            <script src="onclick.js"></script>
+            
+
+
+    <!-- all link start End-->
+</head>
+<body>
+    <div class="allcontent">
+
+        
+        <div class="header1">
+            <header>    
+
+                <!---------------------------------------------nav start------------------------------------------->
+                
+           <!---------------------------------------------nav start------------------------------------------->
+           
+           <div class="nav-parent">
+            <a href"#" class="logo">
+                <img src="images/logo/logo.png" alt="logoimage">
+            </a>
+        
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar">Menu</label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html" >About</a></li>
+                    <li><a href="gallary.html">Gallery</a></li>
+                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="Site_map.html" >Site Map</a></li>
+                    <li><a href="" >Categories +</a>
+                        <ul>
+                            <li class="dropdown-list-item"><a href="Standing_fan.html">Standing Fan</a></li>
+                            <li class="dropdown-list-item"><a href="Table_fan.html">Table Fan</a></li>
+                            <li class="dropdown-list-item"><a href="Excaust_fan.html">Excaust Fan</a></li>
+                            <li class="dropdown-list-item"><a href="Celling_fan.html">Ceilling Fan</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <a href='registor-from.html' class="user">
+                <input type="button" value="Login/Register" class="login" id="user">
+            </a>
+        </div>
+
+                    
+<!---------------------------------------------- nav end ------------------------------------------->
+            </header>
+            <section class="single-product-main">
+                <div class="single-product-parent">
+                    <div class="left-div">
+                        <div class="signle-product2">
+                            <img src="images/gallary/gallary main body images/standing fan/standingFan.4/1.jpg" alt="" id="image">
+                        </div>
+                        <div class="small-image-parent">
+                            <div class="small-image"><img src="images/gallary/gallary main body images/standing fan/standingFan.4/1.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/standing fan/standingFan.4/1.jpg'"></div>
+                            <div class="small-image"><img src="images/gallary/gallary main body images/standing fan/standingFan.4/2.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/standing fan/standingFan.4/2.jpg'"></div>
+                            <div class="small-image"><img src="images/gallary/gallary main body images/standing fan/standingFan.4/3.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/standing fan/standingFan.4/3.jpg'"></div>
+                            <div class="small-image"><img src="images/gallary/gallary main body images/standing fan/standingFan.4/4.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/standing fan/standingFan.4/4.jpg'"></div>
+                            <div class="small-image"><img src="images/gallary/gallary main body images/standing fan/standingFan.4/5.jpg" alt="" onclick="document.getElementById('image').src='images/gallary/gallary main body images/standing fan/standingFan.4/5.jpg'"></div>
+                        </div>
+                    </div>               
+                    <div class="right-div">
+                   
+                        <div class="paragraph">
+                            <p>Simple Deluxe 16 Inch High Velocity Stand Fan, Adjustable Heights, 75°Oscillating,Quality Made Fan with 3 Settings Speeds, Heavy Duty Metal for Industrial, Commercial, Residential, Color: Pink</p><br>
+                            <br>
+                        </div>
+                        <div class="input">
+                            <input type="button" value="buy know" onclick="buyknow()">
+                        </div>
+                      
+                        <div class="pri_qnt">
+                            <div>
+                                <span>$<span id="price">56</span></span>
+                            </div>
+                            <div>
+                                <b>Quantity:</b>
+                                <br>
+                              <select style="width: 80px;" id="quantity">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                              </select>
+                            </div>
+                        </div>
+                        <div class="brand-parent">
+                            <div class="brand-name">
+                                <ul>
+                                    <li>Brand</li>
+                                    <li>Color</li>
+                                    <li>Electric fan design</li>
+                                    <li>Style</li>
+                                    <li>Room Type</li>
+                                </ul>
+                            </div>
+                            <div class="brand-name">
+                               <ul>
+                                    <li id="brand_name">Simple Deluxe</li>
+                                    <li id="color_name">Pink</li>
+                                    <li id="fan_name"  >Floor Fan</li>
+                                    <li>Manual</li>
+                                    <li>Kitchen, Living Room</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="about-product">
+                            <div class="about-product-child">
+                            <ul>
+                            <h3>about this product</h3>
+                            <li>Safety Grill: Our high velocity fan is covered with a steel safety grill, which prevent direct contact with fan blades, make the fan safer for children and pets.</li>
+                            <li>Natural mild Wind: A 3-speed motor that produces up to 2.91m/s of airflow, ensuring a natural and mild wind.</li>
+                            <li>Low Noise: The maximum noise produced by this fan is 65.3 (dB). Operating the fan is quiet and not disturbing.</li>
+                            <li>Durability: The metal fan is built to last. It has an excellent built quality which consists of a chrome stand, with solid construction, and thermal protection to prevent motor overheat.</li>
+                            <li>Adjustable Heights & Horizontal Oscillation: Horizontal Oscillation 75 degrees; height of the fan can be adjusted form 39” to 53”.</li>
+                            </ul>
+                            <a href="download_description/table_fan_pro3-description/3.docx">Download Descreption</a>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+               </section>
+        </div>
+    </div>
+
+    <script>
+        function buyknow(){
+          
+        var image=document.getElementById("image").src;
+        var FanName=document.getElementById("fan_name").innerText;
+        var BrandName=document.getElementById("brand_name").innerText;
+        var ColorName=document.getElementById("color_name").innerText;
+        var price=document.getElementById("price").innerHTML;
+        var quantity=document.getElementById("quantity").value;
+        if(quantity=='1'){
+                    myvalue=price*1
+                }
+                else  if(quantity=='2'){
+                    myvalue=price*2
+                }
+                else  if(quantity=='3'){
+                    myvalue=price*3
+                  }
+                  else  if(quantity=='4'){
+                    myvalue=price*4
+                  }
+                
+    
+        localStorage.setItem("getimage",image);
+        localStorage.setItem("getname",FanName);
+        localStorage.setItem("getbrand",BrandName);
+        localStorage.setItem("getcolor",ColorName);
+        localStorage.setItem("getquantity",quantity);
+        localStorage.setItem("getprice",myvalue);
+        window.location.href="formbuyknow.html"
+        
+        }
+    </script>
+
+          <!-- aos script cdn for fade animation -->
+          <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+          <script>
+            AOS.init({
+               
+               
+            }
+    
+            
+            );
+          </script>
+          <!--------slider script----------->
+          <script src="slider.js"> </script>
+
+          <script src="app.js"></script>
+          <script src="secondCard.js"></script>
+          <!-------dropdown script-------->
+          <script src="dropdown.js"></script>
+
+</body>
+</html>

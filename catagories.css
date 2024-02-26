@@ -1,0 +1,28 @@
+.Table_fan{
+    position: relative;
+    /* border: 2px solid; */
+    margin-top: -200px;
+  
+  
+  }
+    .exhaust-fan{
+      margin-top: -200px;
+      border-top: none;
+      border-image: linear-gradient(to right, #0326ef, #f1bf85,rgb(207, 88, 88));
+    
+  
+    }
+    .Standing_fan{
+      margin-top: -200px;
+      border-top: none;
+      border-image: linear-gradient(to right, #0326ef, #f1bf85,rgb(207, 88, 88));
+    
+  
+    }
+    .Ceiling-Fan{
+      margin-top: -200px;
+      border-top: 3px solid;
+      border-image: linear-gradient(to right, #0326ef, #f1bf85,rgb(207, 88, 88));
+      
+  
+    }

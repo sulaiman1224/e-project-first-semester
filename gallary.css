@@ -1,0 +1,85 @@
+:root{
+    --clr-od:#eb7c49;
+    --clr-o:#7093f3;
+    --clr-w:#000000;
+    --clr-lw:  #ffffff;
+    --clr-bl: #000000ce;
+  
+}
+body{
+  font-family: 'Poppins', sans-serif;
+}
+   /*----------------------------------------------------- header----------------------------------------------------- */
+  .gallary-header{
+    position: relative;
+    top: 73px;
+  }
+   .shop-name{
+  
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:  #ccc9c9;
+    height: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 4px 10px  rgb(11, 3, 87);
+
+  }
+
+  .one{
+    position: relative;
+    font-size: 100px;
+    text-align: center;
+    letter-spacing: 20px;
+    color: var(--clr-od);
+    text-transform: uppercase;
+    text-shadow: 2px 3px 7px var(--clr-o), 
+    0 10px 1px var(--clr-bl);
+    line-height: 70px;
+}
+
+.Table_fan{
+  position: relative;
+  /* border: 2px solid; */
+  margin-top: -200px;
+
+
+}
+  .exhaust-fan{
+    margin-top: 40px;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #0326ef, #f1bf85,rgb(207, 88, 88));
+    border-image-slice: 1;
+
+  }
+  .Standing_fan{
+    margin-top: 40px;
+ 
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #0326ef, #f1bf85,rgb(207, 88, 88));
+    border-image-slice: 1;
+
+  }
+  .Ceiling-Fan{
+    margin-top: 40px;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #0326ef, #f1bf85,rgb(207, 88, 88));
+    border-image-slice: 1;
+
+  }
+
+
+
+  .fan-name{
+     color: var(--clr-od);
+    position: relative;
+    margin-top: 35px;
+    left: 43%;
+    font-size: 30px;
+    text-transform: uppercase;
+    word-spacing: 10px;
+    letter-spacing: 3px;
+    width: fit-content;
+  }
+/*---

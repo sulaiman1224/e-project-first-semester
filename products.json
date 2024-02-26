@@ -1,0 +1,59 @@
+[
+    {   
+        "id":1,
+        "image":"images/main body product image/table fans/fan-design-1/table fan-1.png",
+        "name":"Table Fan",
+        "image1":"images/main body product image/table fans/fan-design-1/table fan-1.png",
+        "image2":"images/main body product image/table fans/fan-design-1/table fan-2.png",
+        "image3":"images/main body product image/table fans/fan-design-1/table fan-3.png",
+        "detail":"this table fan is best for room",
+        "price":99.00
+        
+
+
+    },
+
+    {     
+        "id":2,
+        "image":"images/main body product image/table fans/fan-design-2/table fan-1.png",
+        "name":"Table Fan",
+        "image1":"images/main body product image/table fans/fan-design-2/table fan-1.png",
+        "image2":"images/main body product image/table fans/fan-design-2/table fan-2.png",
+        "image3":"images/main body product image/table fans/fan-design-2/table fan-3.png",
+        "detail":"this table fan is best for room",
+        "price":99.00
+
+
+
+    },
+    {     
+        "id":3,
+        "image":"images/main body product image/table fans/fan-design-3/table fan-1.png",
+        "name":"Table Fan",
+        "image1":"images/main body product image/table fans/fan-design-3/table fan-1.png",
+        "image2":"images/main body product image/table fans/fan-design-3/table fan-2.png",
+        "image3":"images/main body product image/table fans/fan-design-3/table fan-3.png",
+        "detail":"this table fan is best for room",
+        "price":99.00
+    
+
+
+    },
+    {     
+        "id":4,
+        "image":"images/main body product image/table fans/fan-design-4/table-fan-1.png",
+        "name":"Table Fan",
+        "image1":"images/main body product image/table fans/fan-design-4/table-fan-1.png",
+        "image2":"images/main body product image/table fans/fan-design-4/table-fan-2.png",
+        "image3":"images/main body product image/table fans/fan-design-4/table-fan-3.png",
+        "detail":"this table fan is best for room",
+        "price":99.00
+    
+
+
+    }
+
+
+    
+
+]
